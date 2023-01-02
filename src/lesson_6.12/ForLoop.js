@@ -36,17 +36,24 @@ class ForLoop extends Component
             }
         })
     }
+
+    MovieNameFunction = (name) =>
+    {
+        console.log("name: ", name);
+    }
+
+
     
     render()
     {
 
             return ( 
-                <div>
+                <div className = "row p-5">
                     {
                         this.state.shows.map( show => 
-                            <TvCard singleS= {show}/>
+                            <TvCard singleS= {show} consoleName = {this.MovieNameFunction}/>
                     )}
-                </div>          
+                </div>
             );
         
     }

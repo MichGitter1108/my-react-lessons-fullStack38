@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/style-prop-object */
@@ -34,6 +35,9 @@ class AxiosPage extends Component
             }
         })
     }
+
+    
+
 
     render() 
     {
